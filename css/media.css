@@ -1,0 +1,605 @@
+@media (max-width: 1200px) {
+    .our-service__block {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1106px) {
+.footer__block1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer__block1-ul{
+    margin: 0 55px;;
+}
+}
+
+
+@media (max-width: 1030px) {
+    .header__banner-img {
+        max-width: 440px;
+        max-height: 440px;
+    }
+
+    .section__chelik-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section__chelik-3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .chelik-2__h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .chelik-2__p {
+        text-align: center;
+    }
+
+    .chelik-2 {
+        max-width: 470px;
+        width: 100%;
+    }
+
+    .chelik-2__a {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .nav__ul {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .header__banner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__h1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+        max-width: 480px;
+    }
+
+    .header__banner-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .header__banner-img {
+        max-width: 440px;
+        max-height: 440px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .our-service__parag {
+        text-align: center;
+        max-width: 270px;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 270;
+        line-height: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .our-service__card {
+        max-width: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .our-service__card-h3 {
+        display: flex;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 21px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .form__h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .form__p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    button {
+        display: flex;
+        height: 50px;
+        border-radius: 1.1em;
+        border: 1px solid;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 49px 20px 25px;
+        border-radius: 70px;
+    }
+
+    .footer__block2{
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       align-items: center;
+    }
+
+    .our-service__card {
+        max-width: 270px;
+        width: 100%;
+        border-radius: 28px;
+    }
+
+    .our-service__card-h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 23px;
+        padding-bottom: 15px;
+    }
+
+    .card__icon {
+        align-items: center;
+        padding: 15px 0 12px 0;
+    }
+
+    .card__img2 {
+        max-width: 35px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img1 {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .our-service__card-p {
+        max-width: 230px;
+        font-size: 13px;
+        line-height: 23px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .our-service__card-a span {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .our-service__card-a {
+        padding-bottom: 20px;
+    }
+
+    .our-service__block {
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .zone__svg {
+        display: flex;
+        position: fixed;
+        top: 43px;
+        right: 23px;
+        z-index: 999;
+    }
+
+    .nav__ul {
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 30px;
+        width: 30%;
+        height: 100vh;
+        backdrop-filter: blur(13px);
+        z-index: 999;
+        transform: translateX(100%);
+        transition: .6s linear;
+        padding-left: 20px;
+    }
+
+    .zone__svg:hover~.nav__ul {
+        transform: translateX(0);
+    }
+
+    .header__h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 38px;
+        max-width: 480px;
+        padding-top: 30px;
+    }
+
+    .header__banner-img {
+        max-width: 340px;
+        max-height: 340px;
+        margin: 0 auto;
+    }
+
+    .our-service__h2 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .our-service__parag {
+        font-size: 15px;
+    }
+
+    .Met-Our-Team__h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .Met-Our-Team__p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .Met-Our-Team__card {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .Met-Our-Team__block {
+        gap: 20px;
+    }
+
+    .Met-Our-Team__block span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .Met-Our-Team__img {
+        max-width: 110px;
+    }
+
+    .profil__h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .our-service__card {
+        max-width: 215px;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .our-service__card-h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        padding-bottom: 10px;
+    }
+
+    .card__icon {
+        align-items: center;
+        padding: 15px 0 12px 0;
+    }
+
+    .card__img2 {
+        max-width: 30px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img1 {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .our-service__card-p {
+        max-width: 230px;
+        font-size: 12.5px;
+        line-height: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .our-service__card-a span {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .our-service__card-a {
+        padding-bottom: 20px;
+    }
+
+    .our-service__block {
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+
+    .form__h2 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .form__p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    form{
+        max-width: 550px;
+    }
+
+    input {
+        max-width: 550px;
+        width: 100%;
+        padding: 25px 44px;
+        border-radius: 70px;
+        background: linear-gradient(180deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+        box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+        color: white;
+        outline: none;
+    }
+
+    button {
+        display: flex;
+        height: 50px;
+        border-radius: 1.1em;
+        border: 1px solid;
+        font-size: 15px;
+        line-height: 30px;
+        padding: 10px 30px 20px 20px;
+        border-radius: 70px;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .zone__svg {
+        max-width: 45px;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 43px;
+        right: 23px;
+    }
+
+    .our-service__block {
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+
+    .our-service__card {
+        max-width: 200px;
+        width: 100%;
+        border-radius: 24px;
+    }
+
+    .our-service__card-h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 180px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .card__icon {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0 15px 0;
+    }
+
+    .card__img2 {
+        max-width: 30px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img1 {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .our-service__card-p {
+        text-align: center;
+        max-width: 170px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        padding-bottom: 7px;
+    }
+
+    .our-service__card-a {
+        padding-bottom: 20px;
+    }
+
+    .chelik-2__h2 {
+        font-size: 30px;
+    }
+
+    .chelik-2 {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .chelik-2__p {
+        font-size: 14px;
+    }
+
+    .chelik-2__a {
+        font-size: 14px;
+        padding: 7px 14px;
+    }
+
+    .Met-Our-Team__card {
+        border-radius: 28px;
+        max-width: 180px;
+        width: 100%;
+        padding: 18px 18px;
+    }
+
+    .Met-Our-Team__block {
+        gap: 20px;
+    }
+
+    .Met-Our-Team__block span {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .Met-Our-Team__img {
+        max-width: 90px;
+    }
+
+    .profil__h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .zone__svg {
+        max-width: 40px;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 43px;
+        right: 23px;
+    }
+
+    .our-service__block {
+        column-gap: 15px;
+        row-gap: 20px;
+    }
+
+    .our-service__card {
+        max-width: 170px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .our-service__card-h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        max-width: 150px;
+        width: 100%;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .card__icon {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 13px 0 8px 0;
+    }
+
+    .card__img2 {
+        max-width: 25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__img1 {
+        max-width: 45px;
+        max-height: 45px;
+    }
+
+    .our-service__card-p {
+        text-align: center;
+        max-width: 150px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        padding-bottom: 5px;
+    }
+
+    .our-service__card-a {
+        padding-bottom: 15px;
+    }
+
+    .Met-Our-Team__h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .Met-Our-Team__p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .Met-Our-Team__card {
+        border-radius: 25px;
+        max-width: 170px;
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .Met-Our-Team__block {
+        gap: 20px;
+    }
+
+    .Met-Our-Team__block span {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .Met-Our-Team__img {
+        max-width: 90px;
+    }
+
+    .profil__h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
